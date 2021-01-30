@@ -10,7 +10,7 @@ public class SpringBootJenkinsApplication {
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	
 		int x = 10;
-		System.out.println("The result is " + x * 2);
+		System.out.println("The result is " + x / 0);
 	
 	}
 
