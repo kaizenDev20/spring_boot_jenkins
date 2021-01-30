@@ -9,9 +9,6 @@ public class SpringBootJenkinsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	
-		int x = 10;
-		System.out.println("The result is " + x / 0);
-	
 	}
 
 }
